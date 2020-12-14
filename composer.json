@@ -1,0 +1,25 @@
+{
+    "name": "buddhika/appcache",
+    "description": "A simple menu driven Laravel cache management tool",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Buddhika",
+            "email": "lasanthabuddhika@yahoo.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Buddhika\\AppCache\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Buddhika\\AppCache\\AppCacheServiceProvider"
+            ]
+        }
+    }
+}
